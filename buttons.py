@@ -29,17 +29,21 @@ my_label.grid()
 
 button = tkinter.Button(root)
 button.config(text="click me!!",
-              fg="purple",
+              bg="orchid",
               command=print_message)
 button.grid()
 
 button2 = tkinter.Button(root)
-button2.config(text="click me now!!", command=print_message2)
+button2.config(text="click me now!!",
+               bg="plum",
+               command=print_message2)
 button2.grid()
 
 
 button3 = tkinter.Button(root)
-button3.config(text="click me now!!", command=print_message3)
+button3.config(text="click me now!!",
+               bg="violet",
+               command=print_message3)
 button3.grid()
 
 root.mainloop()
